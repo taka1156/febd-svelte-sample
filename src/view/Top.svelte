@@ -4,6 +4,7 @@
 
 <div>
   <h1>Svelte App</h1>
+  <img src="./static/svelte.svg" alt="svelte logo">
   <p class="welcome">Hello {name}!</p>
   <p>
     Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
