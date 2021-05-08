@@ -4,8 +4,8 @@
   import { routes } from './routes/index.js';
 </script>
 
+<Navigation />
 <main>
-  <Navigation />
   <Router {routes} />
 </main>
 
