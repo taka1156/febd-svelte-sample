@@ -40,7 +40,7 @@
     padding: 0;
     margin: 0 auto;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: orangered;
     border: 1px solid white;
   }
 

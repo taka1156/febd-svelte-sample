@@ -4,7 +4,7 @@
 
 <div>
   <h1>Svelte App</h1>
-  <img src="./static/svelte.svg" alt="svelte logo">
+  <img src="./static/svelte.svg" alt="svelte logo" class="logo">
   <p class="welcome">Hello {name}!</p>
   <p>
     Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
@@ -18,5 +18,9 @@
     text-transform: uppercase;
     font-size: 4em;
     font-weight: 100;
+  }
+
+  .logo {
+    width: 100%;
   }
 </style>

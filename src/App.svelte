@@ -1,25 +1,19 @@
 <script>
-	import Router from 'svelte-spa-router';
-	import Navigation from './components/Navigation/Navigation.svelte'
-	import { routes } from './routes/index.js'
+  import Router from 'svelte-spa-router';
+  import Navigation from './components/Navigation/Navigation.svelte';
+  import { routes } from './routes/index.js';
 </script>
 
 <main>
-	<Navigation />
-	<Router {routes}/>
+  <Navigation />
+  <Router {routes} />
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+  main {
+    text-align: center;
+    padding: 1em;
+   	width: 90%;
+    margin: 0 auto;
+  }
 </style>
