@@ -17,10 +17,12 @@
     color: #ff3e00;
     text-transform: uppercase;
     font-size: 4em;
-    font-weight: 100;
+    font-weight: 10;
+    margin: 10px;
   }
 
   .logo {
-    width: 100%;
+    height: 50%;
+    width: 50%;
   }
 </style>
